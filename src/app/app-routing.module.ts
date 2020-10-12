@@ -12,8 +12,12 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'login',
-    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+    path: 'sweet',
+    loadChildren: () => import('./sweet/sweet.module').then( m => m.SweetPageModule)
+  },
+  {
+    path: 'tabs',
+    loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
   },
 ];
 

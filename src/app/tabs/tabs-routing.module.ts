@@ -12,7 +12,6 @@ const routes: Routes = [
       loadChildren: () => import('./filtro/filtro.module').then( m => m.FiltroPageModule)
     }]
   },
- 
 ];
 
 @NgModule({

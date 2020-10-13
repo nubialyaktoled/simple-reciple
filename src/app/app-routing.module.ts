@@ -11,13 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
-  {
-    path: 'sweet',
-    loadChildren: () => import('./sweet/sweet.module').then( m => m.SweetPageModule)
-  },
+
   {
     path: 'tabs',
     loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
+  },
+  {
+    path: 'filtro',
+    loadChildren: () => import('./filtro/filtro.module').then( m => m.FiltroPageModule)
   },
 ];
 

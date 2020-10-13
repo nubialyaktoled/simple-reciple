@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { SweetPageRoutingModule } from './sweet-routing.module';
+import { FiltroPageRoutingModule } from './filtro-routing.module';
 
-import { SweetPage } from './sweet.page';
+import { FiltroPage } from './filtro.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    SweetPageRoutingModule
+    FiltroPageRoutingModule
   ],
-  declarations: [SweetPage]
+  declarations: [FiltroPage]
 })
-export class SweetPageModule {}
+export class FiltroPageModule {}

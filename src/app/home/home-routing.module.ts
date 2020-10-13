@@ -12,6 +12,10 @@ const routes: Routes = [
   {
     path: 'tabs',
     loadChildren: () => import('../tabs/tabs.module').then( m => m.TabsPageModule)
+  },
+  {
+    path: 'filtro',
+    loadChildren: () => import('../filtro/filtro.module').then( m => m.FiltroPageModule)
   }
 ];
 
